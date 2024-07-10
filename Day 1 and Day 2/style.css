@@ -1,0 +1,69 @@
+table {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+      td, th {
+    border: 0.5px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    font-style:italic;
+    font-size:medium;
+    font-weight: 100;
+    background-color:rgb(9, 231, 251);
+
+}
+td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(212, 245, 245);
+}
+hr{
+  border: 2px solid rgb(0, 238, 255);
+}
+h3{
+    background-color: aqua;
+    
+}
+#form-bg{
+  background-color: rgb(2, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  color: rgb(225, 232, 233);
+  background-color: blueviolet;
+  align-content: center;
+}
+.ems{
+  background-color: rgb(204, 231, 236);
+}
+input{
+  /* margin-left: 10%; */
+}
+ul
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+ul li
+{
+    border: 2px solid black;
+}
+
+
+@media (max-width:768px) {
+    ul
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

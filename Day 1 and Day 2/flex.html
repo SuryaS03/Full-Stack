@@ -1,0 +1,120 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul
+        {
+            display: flex;
+            list-style-type: none;
+            background-color: aqua;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           
+        }
+        ul li
+        {
+            /* border: 2px solid black; */
+            font-size: 15px;
+            transform: rotate(-30deg);
+            transform: skew(50deg);
+            transition: width 2s;
+        }
+        ::selection{
+            background-color: blue;
+        }
+        ul li:hover {
+  width: 300px;
+}div {
+    margin: 0  50px 0 ;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+div:hover{
+    transform: rotate(45deg);
+    transition-duration: 5s;
+}
+        .home
+        {
+            flex:2;   
+        }
+       .about{
+        flex: 2;
+       }
+       .contact{
+        flex: 2;
+       }
+       .signup
+       {
+        flex: 2;
+       }
+
+    </style>
+</head>
+<body>
+    <ul >
+        <li class="home">WEB Design</li>
+        <li class="about">About</li>
+        <li class="contact">Contact</li>
+        <li class="signup">Signup</li>
+    </ul>
+    <div></div>
+    <div></div>
+  
+</body>
+</html>
+<!DOCTYPE html>
+
+
+<!-- GRID
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul
+        {
+            display: grid;
+            grid-template-columns: 2fr 3fr 1fr;
+            list-style-type: none;
+            background-color: aqua;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           
+        }
+        ul li
+        {
+            border: 2px solid black;
+        }
+
+        @media (max-width:768px) {
+            ul
+            {
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <ul >
+        <li class="home">WEB Design</li>
+        <li class="about">About</li>
+        <li class="contact">Contact</li>
+        <li class="signup">Signup</li>
+    </ul>
+  
+</body>
+</html> -->
